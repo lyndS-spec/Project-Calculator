@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    background-color: #222;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#calculator {
+    width: 260px;
+}
+
+#display {
+    background-color: rgb(95, 93, 93);
+    color: white;
+    border: 2px solid white;
+    font-size: 28px;
+    padding: 15px;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 40%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    margin: 2px;
+    cursor: pointer;
+    border: 1.5px solid lightgray;
+    background-color: rgb(35, 45, 45);
+}
